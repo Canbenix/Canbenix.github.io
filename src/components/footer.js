@@ -35,7 +35,7 @@ const Footer = () => {
     {
       label: "Email",
       icon: (
-        <svg viewBox="0 0 20 20" fill="currentColor" class="mail w-6 h-6">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="mail w-6 h-6">
           <path
             d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
           />

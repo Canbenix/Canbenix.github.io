@@ -16,15 +16,15 @@ const Introduction = () => {
       <div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none">
           <div className="bg-white px-6 py-8 lg:flex-shrink-1 lg:p-12">
-            <h3 className="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9">
+            <h3 className="text-2xl leading-8 font-extrabold text-blue-900 sm:text-3xl sm:leading-9">
               About me
             </h3>
 
             <p className="mt-6 text-base leading-6">
               Hi! I'm Nina Becx, a final year BSc Computer Science student at the University of Edinburgh.
               After graduating secondary school, I took a gap year to explore my love for tech,
-              working as a software developer for a Dutch ICT company.
-              I loved it and continued to take on programming projects within the company 
+              working as a software developer for a Dutch IT company.
+              I really enjoyed it and continued to take on programming projects within the company 
               and independent open source projects during my study.
               After this final year of my Bachelor's, I plan on pursuing a Master's degree in Informatics.
               I can't wait to see where my passion for technology and programming will take me!
@@ -74,7 +74,7 @@ const Introduction = () => {
                 I'd like to share the info I've collected on all the basketball spots I've discovered here :)
               </p>
               <br />
-              <div>[Coming soon]</div>
+              <div><iframe title="Basketball spots" src="https://www.google.com/maps/d/u/1/embed?mid=14R2f7-a2W46WY5dFKB7_PWPS4GE7QdQT" width="100%" height="480"></iframe></div>
             </div>
 
             <div className="mt-8">

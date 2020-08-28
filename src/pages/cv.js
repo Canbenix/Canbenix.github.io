@@ -1189,8 +1189,8 @@ const EducationalApps = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-width="2"
                       viewBox="0 0 24 24"
                       className="w-8 h-8"
@@ -1213,8 +1213,8 @@ const EducationalApps = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-width="2"
                       viewBox="0 0 24 24"
                       className="w-8 h-8"
@@ -1239,8 +1239,8 @@ const EducationalApps = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-width="2"
                       viewBox="0 0 24 24"
                       className="w-8 h-8"
@@ -1267,8 +1267,8 @@ const EducationalApps = () => {
                     <svg
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-width="2"
                       viewBox="0 0 24 24"
                       className="w-8 h-8"
