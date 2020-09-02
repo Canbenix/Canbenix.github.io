@@ -51,12 +51,14 @@ const Introduction = () => {
                 I've also been the recipient of a certificate of excellence and an Edinburgh Award for doing extra-curricular activities.
                 To learn more about my achievements, academics and professional career, check out my
                 {" "}
-                <Link
-                  to="/cv"
-                  className="font-medium text-blue-500"
+                <a
+                  href="https://www.linkedin.com/in/nina-becx/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500"
                 >
-                  CV
-                </Link>.
+                  LinkedIn
+                </a>.
               </p>
             </div>
 

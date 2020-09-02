@@ -168,7 +168,7 @@ const ProjectsFlexpulse = () => {
             </div>
           </div>
 
-          <p className='text-center text-xs text-gray-500'>(Last updated: 1 September 2020)</p>
+          <p className='text-center text-xs text-gray-500'>(Last updated: 31 August 2020)</p>
 
         </div>
       </div>
@@ -179,18 +179,35 @@ const ProjectsFlexpulse = () => {
 const ProjectsUniversity = () => {
 
   const groupBadge = [
-    <p className="rounded-lg bg-pink-200 p-1 pl-2 pr-2">
+    <p className="rounded-lg bg-pink-200 p-1 pl-2 pr-2 text-xs">
       Group project
     </p>
   ]
 
   const projects_uni = [
     {
+      name: "Scientific programming",
+      description: "Programmed several practical physics applications such as calculating the path and energy of projectiles under drag and damped harmoic oscillators.",
+      grade: 100,
+      course: "Programming and Data Analysis",
+      language: "Python",
+      deadline: "2017-11-02",
+    },
+    {
+      name: "Data analysis",
+      description: "Performed extensive data analysis to determine the fractal dimension of compressed aluminium foil.",
+      grade: 94,
+      course: "Programming and Data Analysis",
+      language: "VBA",
+      deadline: "2017-11-30",
+    },
+    {
       name: "Neural networks",
       description: "Examined and analysed data using perceptrons and neural networks.",
       grade: 100,
       course: "Cognitive Science",
       language: "Python",
+      deadline: "2018-02-26",
     },
     {
       name: "Clustering and categorization",
@@ -198,6 +215,7 @@ const ProjectsUniversity = () => {
       grade: 100,
       course: "Cognitive Science",
       language: "Python",
+      deadline: "2018-03-14",
     },
     {
       name: "Substitution and interpolation",
@@ -205,6 +223,7 @@ const ProjectsUniversity = () => {
       grade: 97,
       course: "Computing and Numerics",
       language: "MATLAB",
+      deadline: "2018-03-19",
     },
     {
       name: "Differentiation, integration and root finding",
@@ -212,20 +231,7 @@ const ProjectsUniversity = () => {
       grade: 95,
       course: "Computing and Numerics",
       language: "MATLAB",
-    },
-    {
-      name: "Formal language processing pipeline",
-      description: "Implemented the stages of the language processing pipeline for a subset of the Haskell programming language.",
-      grade: 99,
-      course: "Processing Formal and Natural Languages",
-      language: "Java",
-    },
-    {
-      name: "Natural language query system",
-      description: "Developed a natural language query system.",
-      grade: 99,
-      course: "Processing Formal and Natural Languages",
-      language: "Python",
+      deadline: "2018-04-16",
     },
     {
       name: "Spell and punctuation checker",
@@ -233,6 +239,24 @@ const ProjectsUniversity = () => {
       grade: 100,
       course: "Computer Systems",
       language: "C, MIPS",
+      deadline: "2018-10-24",
+    },
+    {
+      name: "Formal language processing pipeline",
+      description: "Implemented the stages of the language processing pipeline for a subset of the Haskell programming language.",
+      grade: 99,
+      course: "Processing Formal and Natural Languages",
+      language: "Java, Haskell",
+      deadline: "2018-10-30",
+    },
+    {
+      name: "Auction house system",
+      description: "Specified, designed and developed a simplified computer system for managing auctions at an auction house.",
+      grade: 91,
+      course: "Software Engineering",
+      language: "Java",
+      deadline: "2018-11-27",
+      group: groupBadge,
     },
     {
       name: "Cache simulator",
@@ -240,14 +264,15 @@ const ProjectsUniversity = () => {
       grade: 99,
       course: "Computer Systems",
       language: "C",
+      deadline: "2018-11-28",
     },
     {
-      name: "Auction house system",
-      description: "Specified, designed and developed a simplified computer system for managing auctions at an auction house.",
-      grade: 92,
-      course: "Software Engineering",
-      language: "Java",
-      group: groupBadge,
+      name: "Natural language query system",
+      description: "Developed a natural language query system.",
+      grade: 99,
+      course: "Processing Formal and Natural Languages",
+      language: "Python",
+      deadline: "2018-11-30",
     },
     {
       name: "String matching",
@@ -255,6 +280,7 @@ const ProjectsUniversity = () => {
       grade: 97,
       course: "Algorithms and Data Structures",
       language: "Java",
+      deadline: "2019-02-25",
     },
     {
       name: "Search and optimisation",
@@ -262,6 +288,15 @@ const ProjectsUniversity = () => {
       grade: 99,
       course: "Reasoning and Agents",
       language: "Haskell",
+      deadline: "2019-03-12",
+    },
+    {
+      name: "Planning with PDDL",
+      description: "Used the Planning Domain Definition Language to model, implement and extend the domain of a robotic waiter.",
+      grade: 94,
+      course: "Reasoning and Agents",
+      language: "PDDL",
+      deadline: "2019-03-28",
     },
     {
       name: "Clustering and classification",
@@ -269,7 +304,56 @@ const ProjectsUniversity = () => {
       grade: 95,
       course: "Machine Learning",
       language: "MATLAB",
+      deadline: "2019-04-05",
     },
+    {
+      name: "Learning models",
+      description: "Explored various learning models such as K-means clustering, PCA, and logistic, linear, KNN and decision tree regressors.",
+      grade: 81,
+      course: "Applied Machine Learning",
+      language: "Python",
+      deadline: "2019-11-15",
+    },
+    {
+      name: "Location-based strategy game",
+      description: "Specified, designed, implemented and evaluated a large-scale software system involving an autonomous drone competing with a human player.",
+      grade: 100,
+      course: "Informatics Large Practical",
+      language: "Java",
+      deadline: "2019-12-06",
+    },
+    {
+      name: "Corpora analysis and language identification",
+      description: "Built a character-level language model and performed analysis on several corpora using NLTK.",
+      grade: 94,
+      course: "Foundations of Natural Language Processing",
+      language: "Python",
+      deadline: "2020-02-13",
+    },
+    {
+      name: "Cryptography",
+      description: "Utilised asymmetric encryption, email spoofing and password cracking techniques and mounted a MitM attack.",
+      grade: 100,
+      course: "Computer Security",
+      language: "Bash, Python",
+      deadline: "2020-03-06",
+    },
+    {
+      name: "Part-of-speech tagging",
+      description: "Implemented a Hidden Markov Model and the Viterbi algorithm to perform part-of-speech tagging.",
+      grade: 98,
+      course: "Foundations of Natural Language Processing",
+      language: "Python",
+      deadline: "2020-03-12",
+    },
+    {
+      name: "Software security",
+      description: "Exploited several software vulnerabilities using GDB and shellcode.",
+      grade: 100,
+      course: "Computer Security",
+      language: "Bash, C",
+      deadline: "2020-04-17",
+    },    
   ]
 
   return (
@@ -283,7 +367,7 @@ const ProjectsUniversity = () => {
           </div>
           <div className="mt-10">
             <div className="lg:grid lg:grid-cols-3 lg:gap-8 sm:grid sm:grid-cols-2">
-              {projects_uni.map(({ name, description, grade, course, language, group }) => (
+              {projects_uni.reverse().map(({ name, description, grade, course, language, group }) => (
                 <div className="mt-5 ml-2.5 mr-2.5 rounded-lg bg-white">
                   <div className="p-5">
                     <div className="flex justify-between flex-initial">

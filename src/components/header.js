@@ -8,7 +8,6 @@ const Header = () => {
   const menuItems = [
     { label: "Home", href: "/" },
     { label: "Projects", href: "/projects" },
-    { label: "CV", href: "/cv" },
   ]
 
   const data = useStaticQuery(graphql`
