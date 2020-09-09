@@ -1,5 +1,4 @@
-import { graphql, useStaticQuery } from "gatsby"
-import Image from "gatsby-image"
+import nina_flexpulse from "../images/nina_flexpulse.png"
 import React from "react"
 import SEO from "../components/seo"
 
@@ -52,52 +51,65 @@ const ProjectsFlexpulse = () => {
     <div className="mt-4 relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-5">
       <div className="rounded-lg bg-blue-200 px-6 py-8 sm:p-10 lg:flex lg:items-center">
         <div className="flex-1">
-          <div>
-            <h3 className="text-xl leading-8 font-extrabold text-blue-900 sm:text-2xl sm:leading-9">
-              Projects at Flexpulse
-            </h3>
-          </div>
-          <div className="mt-4 text-base text-gray-900">
-            The biggest projects I've undertaken were for
-            {" "}
-            <a
-              href="https://www.flexpulse.nl/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500"
-            >
-              Flexpulse
-            </a>, a Dutch IT company for which I worked in my gap year and during university.
-            The company offers a comprehensive administration software package for driving schools,
-            including pupil and employee management, accountancy, invoice tools and personal schedules and calendars.
-            Some of the projects where I was the lead developer include:
-            <ul className="mt-8 lg:grid lg:grid-cols-2 lg:col-gap-8 lg:row-gap-5">
-              {projects_flexpulse.reverse().map(({ name, description, path, i }) => (
-                <li
-                  className="mt-5 first:mt-0 lg:mt-0 flex items-start lg:col-span-1"
-                  key="project_flexpulse_{i}"
+          <div className="lg:flex lg:flex-wrap">
+            <div className="lg:w-8/12 lg:pr-10 lg:m-auto pb-6">
+              <div>
+                <h3 className="text-xl leading-8 font-extrabold text-blue-900 sm:text-2xl sm:leading-9">
+                  Projects at Flexpulse
+                </h3>
+              </div>
+              <div className="mt-4 text-base text-gray-900">
+                The biggest projects I've undertaken were for
+                {" "}
+                <a
+                  href="https://www.flexpulse.nl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500"
                 >
-                  <div className="flex-shrink-0">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      className="w-8 h-8"
+                  Flexpulse
+                </a>, a Dutch IT company for which I worked in my gap year and during university.
+                The company offers a comprehensive administration software package for driving schools,
+                including pupil and employee management, accountancy, invoice tools and personal calendars.
+                The main software is written in PHP, JavaScript and HTML. I've also developed several tools in Python
+                to aid testing, development and support customers.
+                {/* Some of the projects where I was the lead developer include:
+                <ul className="mt-8 lg:grid lg:grid-cols-2 lg:col-gap-8 lg:row-gap-5">
+                  {projects_flexpulse.reverse().map(({ name, description, path, i }) => (
+                    <li
+                      className="mt-5 first:mt-0 lg:mt-0 flex items-start lg:col-span-1"
+                      key="project_flexpulse_{i}"
                     >
-                      <path d={path}></path>
-                    </svg>
-                  </div>
-                  <div className="ml-3 text-sm leading-5 text-gray-700">
-                    <p>
-                      {description}
-                    </p>
-                  </div>
-                </li>
-              ))}
-            </ul>
+                      <div className="flex-shrink-0">
+                        <svg
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          viewBox="0 0 24 24"
+                          className="w-8 h-8"
+                        >
+                          <path d={path}></path>
+                        </svg>
+                      </div>
+                      <div className="ml-3 text-sm leading-5 text-gray-700">
+                        <p>
+                          {description}
+                        </p>
+                      </div>
+                    </li>
+                  ))}
+                </ul> */}
+              </div>
+            </div>
+            <div className="lg:w-4/12">
+              <img
+                className="relative mx-auto"
+                src={nina_flexpulse}
+                alt="At work"
+              />
+            </div>
           </div>
 
           <div className="mt-10 text-base text-gray-900 text-center">
@@ -342,7 +354,7 @@ const ProjectsUniversity = () => {
         <div className="flex-1">
           <div>
             <h3 className="text-xl leading-8 font-extrabold text-blue-900 sm:text-2xl sm:leading-9">
-              Projects at University
+              Projects at the University of Edinburgh
             </h3>
           </div>
           <div className="mt-10">

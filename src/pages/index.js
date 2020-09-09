@@ -22,10 +22,10 @@ const Introduction = () => {
 
             <p className="mt-6 text-base leading-6">
               Hi! I'm Nina Becx, a final year BSc Computer Science student at the University of Edinburgh.
-              After graduating secondary school, I took a gap year to explore my love for tech,
+              After graduating from secondary school, I took a gap year to explore my love for tech,
               working as a software developer for a Dutch IT company.
               I really enjoyed it and continued to take on programming projects within the company 
-              and independent open source projects during my study.
+              and independent open source projects during my studies.
               After this final year of my Bachelor's, I plan on pursuing a Master's degree in Informatics.
               I can't wait to see where my passion for technology and programming will take me!
             </p>
